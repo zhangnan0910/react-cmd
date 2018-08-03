@@ -1,0 +1,54 @@
+
+.top{
+    height:60px;
+    width:100%;
+    background: #EAEAEA;
+}
+.content{
+    display: flex;
+    flex: 1;
+}
+.ant-menu {
+    height: 100%;
+}
+aside{
+    flex-shrink: 0;
+}
+.main{
+    flex: 1;
+    background: #EAEAEA;
+}
+/* .aside{
+    width: 240px;
+    float: left;
+    height: 100%;
+    background: #022050;
+    text-align: center;
+}
+
+.aside li{
+    line-height: 40px;
+    position: relative;
+}
+
+.aside>li>ol{
+    background: #1C2941;
+    display: none;
+}
+.aside>li span{
+    transform: rotate(90deg);
+    position: absolute;
+    right: 20px;
+    top:0;
+}
+.aside>li.show>ol{
+    display: block;
+}
+.aside>li.show span{
+    transform: rotate(-180deg);
+} */
+/* .main{
+    flex: 1;
+    background: pink;
+    
+} */

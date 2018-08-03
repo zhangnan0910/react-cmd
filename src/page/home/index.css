@@ -1,0 +1,37 @@
+ul.top{
+    display: flex;
+    height: 88px;
+}
+ul.top li{
+    width: 290px;
+    line-height: 40px;
+    margin-left: 15px;
+    text-align: center;
+}
+.box,ul.top li{
+    background: #fff;
+}
+.box{
+    margin:15px 15px 0 15px;
+}
+.box header{
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.box header h4{
+    line-height: 48px;
+}
+.box header .right{
+    display: flex;
+
+}
+.box header .right .tab{
+    display: flex;
+    align-items: center;
+}
+.box header .right .tab li{
+    padding:0 15px;
+}

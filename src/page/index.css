@@ -1,0 +1,53 @@
+.bg{
+    height: 100%;
+    background: url('../common/img/back.jpg') no-repeat;
+}
+.login-form {
+    position: absolute;
+    box-sizing: border-box;
+    top: 14%;
+    right: 7%;
+    width: 332px;
+    min-height: 404px;
+    max-height: 468px;
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+.login-form>input{
+    display: block;
+}
+.account-landing {
+    margin: 0 32px;
+    margin-top: 32px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 17px;
+}
+.error-title {
+    margin: 4px 32px 0;
+    height: 28px;
+    line-height: 28px;
+    background: #ff4d4f;
+    font-size: 14px;
+    padding-left: 17px;
+    color: #fff;
+    position: relative;
+    border-radius: 2px;
+    visibility: hidden;
+    opacity: 0;
+}
+.form-wrap {
+    margin-right: 32px;
+    padding: 8px 0 0 32px;
+    position: relative;
+}
+.login-form h2 {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    bottom: -24px;
+    font-size: 12px;
+    color: #fff;
+    opacity: .65;
+}
